@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: 100%;
+  max-height: 100%;
   --color1: #335c67;
   --color2: #fff3b0;
   --color3: #e09f3e;
@@ -126,7 +128,8 @@ nav a:hover {
   text-align: center;
   overflow-y: auto;
 }
-.row .horizontal-scroll{
+.horizontal-scroll{
+  width: 100vw;
   overflow-x: auto;
 }
 @media only screen and (max-width: 750px) {
